@@ -6,14 +6,10 @@
 
     <groupId>com.itheima</groupId>
     <artifactId>rabbitmq_01</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>rabbitmq_demo01</module>
+    </modules>
 
-    <dependencies>
-        <dependency>
-            <!--rabbitmq依赖-->
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.6.0</version>
-        </dependency>
-    </dependencies>
 </project>
