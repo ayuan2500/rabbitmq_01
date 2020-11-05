@@ -11,6 +11,7 @@
     <modules>
         <module>rabbitmq_demo01</module>
         <module>rabbitmq_demo02_work_queues</module>
+        <module>rabbitmq_demo03_ps_queues</module>
     </modules>
 
 </project>
